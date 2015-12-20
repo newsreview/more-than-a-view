@@ -1,0 +1,97 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Merriweather', serif;
+	font-size: 1.25em;
+}
+header{
+	background: black;
+	text-align: center;
+}
+header a img{
+	margin: 0 auto;
+	width: 100%;
+	max-width: 640px;
+}
+h1{
+	font-size: 2em;
+	font-weight: 900;
+	font-style: bold;
+	margin: .25em 0 0 0;
+}
+@media all and (min-width: 640px){
+	h1{
+		font-size: 3em;
+	}
+}
+h2{
+	font-size:1.1em;
+	margin: .5em 0;
+	font-weight: 500;
+}
+h3{
+	font-weight: 700;
+}
+figure{
+	margin: 0;
+}
+figcaption{
+	line-height: 21px;
+	font-size:14px;
+	font-weight: 300;
+	font-style: italic;
+}
+.wrapper{
+	width: 100%;
+	max-width: 980px;
+	margin: 0 auto;
+}
+.story_wrap{
+	width: 90%;
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 0 5%;
+	line-height: 1.5em;
+}
+@media all and (min-width: 640px){
+	.media_right{
+		float: right;
+		max-width: 300px;
+		margin: 5px 0 5px 20px;
+	}
+}
+@media all and (min-width: 980px){
+	.media_right{
+		max-width: 500px;
+		margin-right: -90px;
+	}
+}
+.byline_wrap{
+	overflow: hidden;
+}
+.byline{
+	width: 50%;
+	float: left;
+	display: inline;
+	font-size: .75em;
+}
+.byline_right{
+	text-align: right;
+}
+.byline_final{
+	font-size: .75em;
+	font-style: italic;
+}
+.pano_wrap{
+	overflow:hidden;
+}
+.pano{
+	width:150%;
+	margin: 0 -25%;
+}
+@media all and (min-width: 640px){
+	.pano{
+		width: 100%;
+		margin: 0 auto;
+	}
+}
